@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="input-group pl-5 pr-5 pb-2">
+        <input
+          class="form-control"
+          placeholder="yyyy-mm-dd"
+          [minDate]="{ year: 2018, month: 4, day: 30 }"
+          [maxDate]="{ year: 2019, month: 5, day: 3 }"
+          name="dp"
+          [(ngModel)]="dateSelected"
+          (ngModelChange)="selectDate($event)"
+          ngbDatepicker
+          #d="ngbDatepicker"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-dark"
+            (click)="d.toggle()"
+            type="button"
+          >
+            Select Date
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+      <button type="button" class="btn btn-lg btn-outline-dark mr-5 mb-2" (click)="prevDay()">Prev day</button>
+      <button type="button" class="btn btn-lg btn-outline-dark ml-5 mb-2" (click)="nextDay()">Next day</button>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div id="map"></div>
+    </div>
+  </div>
+  <button class="btn btn-lg btn-outline-dark mt-4" (click)="openModal()">
+    Predicted vs True
+  </button>
+</div>
