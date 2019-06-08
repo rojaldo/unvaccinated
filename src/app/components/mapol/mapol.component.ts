@@ -22,65 +22,75 @@ export class MapolComponent implements OnInit {
   data: VectorSource;
   vectorSource: VectorSource = new VectorSource();
   dateSelected = null;
+  cities = 'assets/cities.json';
 
-  name = 'Angular 6';
-  timeLeft = 0;
   currentDate = new Date();
   interval;
 
-  public SystemName = 'MF1';
-  firstCopy = false;
 
-  // data
-  public lineChartData: Array<number> = [1, 8, 49, 50, 51];
-
-  public labelMFL: Array<any> = [
+  multi = [
     {
-      data: this.lineChartData,
-      label: this.SystemName
+      name: 'Germany',
+      series: [
+        {
+          name: '2010',
+          value: 7300000
+        },
+        {
+          name: '2011',
+          value: 8940000
+        }
+      ]
+    },
+
+    {
+      name: 'USA',
+      series: [
+        {
+          name: '2010',
+          value: 7870000
+        },
+        {
+          name: '2011',
+          value: 8270000
+        }
+      ]
+    },
+
+    {
+      name: 'France',
+      series: [
+        {
+          name: '2010',
+          value: 5000002
+        },
+        {
+          name: '2011',
+          value: 5800000
+        }
+      ]
     }
   ];
-  // labels
-  public lineChartLabels = ['2018-01-29 10:00:00', '2018-01-29 10:27:00',
-    '2018-01-29 10:28:00', '2018-01-29 10:29:00', '2018-01-29 10:30:00'];
 
-  public lineChartOptions: any = {
-    responsive: true,
-    scales: {
-      yAxes: [{
-        ticks: {
-          max: 60,
-          min: 0,
-        }
-      }],
-      xAxes: [{
-        min: '2018-01-29 10:08:00', // how to?
-        //  max: '2018-01-29 10:48:00', // how to?
-        type: 'time',
-        time: {
-          unit: 'minute',
-          unitStepSize: 10,
-          displayFormats: {
-            second: 'HH:mm:ss',
-            minute: 'HH:mm:ss',
-            hour: 'HH:mm',
-          },
-        },
-      }],
-    },
+  view: any[] = [700, 400];
+
+  // options
+  showXAxis = true;
+  showYAxis = true;
+  gradient = false;
+  showLegend = true;
+  showXAxisLabel = true;
+  xAxisLabel = 'Country';
+  showYAxisLabel = true;
+  yAxisLabel = 'Population';
+
+  colorScheme = {
+    domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
   };
 
-  // tslint:disable-next-line:variable-name
-  _lineChartColors = [{
-    backgroundColor: 'red',
-    borderColor: 'red',
-    pointBackgroundColor: 'red',
-    pointBorderColor: 'red',
-    pointHoverBackgroundColor: 'red',
-    pointHoverBorderColor: 'red'
-  }];
+  // line, area
+  autoScale = true;
 
-  public lineChartType = 'line';
 
   startTimer() {
     this.interval = setInterval(() => {
@@ -89,7 +99,16 @@ export class MapolComponent implements OnInit {
         this.currentDate.getMonth(),
         this.currentDate.getDate() + 1);
       console.log(this.currentDate);
-    }, 100);
+      this.multi[0].series.push({
+        name: '2012',
+        value: 7300000
+      });
+    }, 1000);
+  }
+
+  stopTimer() {
+    clearInterval(this.interval);
+    this.currentDate = new Date();
   }
 
   pauseTimer() {
