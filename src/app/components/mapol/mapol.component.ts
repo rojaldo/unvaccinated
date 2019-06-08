@@ -23,6 +23,86 @@ export class MapolComponent implements OnInit {
   vectorSource: VectorSource = new VectorSource();
   dateSelected = null;
 
+  name = 'Angular 6';
+  timeLeft = 0;
+  currentDate = new Date();
+  interval;
+
+  public SystemName = 'MF1';
+  firstCopy = false;
+
+  // data
+  public lineChartData: Array<number> = [1, 8, 49, 50, 51];
+
+  public labelMFL: Array<any> = [
+    {
+      data: this.lineChartData,
+      label: this.SystemName
+    }
+  ];
+  // labels
+  public lineChartLabels = ['2018-01-29 10:00:00', '2018-01-29 10:27:00',
+    '2018-01-29 10:28:00', '2018-01-29 10:29:00', '2018-01-29 10:30:00'];
+
+  public lineChartOptions: any = {
+    responsive: true,
+    scales: {
+      yAxes: [{
+        ticks: {
+          max: 60,
+          min: 0,
+        }
+      }],
+      xAxes: [{
+        min: '2018-01-29 10:08:00', // how to?
+        //  max: '2018-01-29 10:48:00', // how to?
+        type: 'time',
+        time: {
+          unit: 'minute',
+          unitStepSize: 10,
+          displayFormats: {
+            second: 'HH:mm:ss',
+            minute: 'HH:mm:ss',
+            hour: 'HH:mm',
+          },
+        },
+      }],
+    },
+  };
+
+  // tslint:disable-next-line:variable-name
+  _lineChartColors = [{
+    backgroundColor: 'red',
+    borderColor: 'red',
+    pointBackgroundColor: 'red',
+    pointBorderColor: 'red',
+    pointHoverBackgroundColor: 'red',
+    pointHoverBorderColor: 'red'
+  }];
+
+  public lineChartType = 'line';
+
+  startTimer() {
+    this.interval = setInterval(() => {
+      this.currentDate = new Date(
+        this.currentDate.getFullYear(),
+        this.currentDate.getMonth(),
+        this.currentDate.getDate() + 1);
+      console.log(this.currentDate);
+    }, 100);
+  }
+
+  pauseTimer() {
+    clearInterval(this.interval);
+  }
+
+  public chartClicked(e: any): void {
+    console.log(e);
+  }
+  public chartHovered(e: any): void {
+    console.log(e);
+  }
+
   constructor(private modalService: NgbModal) { }
 
   prevDay() {
@@ -74,7 +154,7 @@ export class MapolComponent implements OnInit {
   }
 
   openModal() {
-    this.modalService.open(NgbdModalComponent, { windowClass: 'my-class'});
+    this.modalService.open(NgbdModalComponent, { windowClass: 'my-class' });
   }
 
   ngOnInit() {

@@ -1,0 +1,470 @@
+[
+    {
+      "city": "Albacete",
+      "population": 388786,
+      "latitude": 38.82540862,
+      "longitude": -1.980373269,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Alicante",
+      "population": 1838819,
+      "latitude": 38.4786378,
+      "longitude": -0.5686990684,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Almería",
+      "population": 709340,
+      "latitude": 37.19608521,
+      "longitude": -2.3448128,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Álava",
+      "population": 328868,
+      "latitude": 42.83512644,
+      "longitude": -2.720603469,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Asturias",
+      "population": 1028244,
+      "latitude": 43.29235786,
+      "longitude": -5.993509325,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Ávila",
+      "population": 158498,
+      "latitude": 40.57103675,
+      "longitude": -4.945535056,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Badajoz",
+      "population": 676376,
+      "latitude": 38.70977074,
+      "longitude": -6.14158522,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Illes Balears",
+      "population": 1128908,
+      "latitude": "",
+      "longitude": "",
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Barcelona",
+      "population": 5609350,
+      "latitude": 41.73100089,
+      "longitude": 1.984054017,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Bizkaia",
+      "population": 1149628,
+      "latitude": 43.23767971,
+      "longitude": -2.852600079,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Burgos",
+      "population": 357070,
+      "latitude": 42.36871273,
+      "longitude": -3.585742456,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Cáceres",
+      "population": 396487,
+      "latitude": 39.71188996,
+      "longitude": -6.16082195,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Cádiz",
+      "population": 1238714,
+      "latitude": 36.55387292,
+      "longitude": -5.760418375,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Cantabria",
+      "population": 580229,
+      "latitude": 43.19752205,
+      "longitude": -4.03002122,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Castellón",
+      "population": 576898,
+      "latitude": 40.24137059,
+      "longitude": -0.1467770869,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Ciudad Real",
+      "population": 499100,
+      "latitude": 38.92561283,
+      "longitude": -3.828097649,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Córdoba",
+      "population": 785240,
+      "latitude": 37.99269444,
+      "longitude": -4.809261611,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "La Coruña",
+      "population": 1119351,
+      "latitude": 43.12579582,
+      "longitude": -8.464283685,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Cuenca",
+      "population": 197222,
+      "latitude": 39.89604968,
+      "longitude": -2.195671533,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Gipuzkoa",
+      "population": 720592,
+      "latitude": 43.14377591,
+      "longitude": -2.194178457,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Girona",
+      "population": 761947,
+      "latitude": 42.12801171,
+      "longitude": 2.67355593,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Granada",
+      "population": 912075,
+      "latitude": 37.31251697,
+      "longitude": -3.267881077,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Guadalajara",
+      "population": 254308,
+      "latitude": 40.81344957,
+      "longitude": -2.623688784,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Huelva",
+      "population": 519932,
+      "latitude": 37.5771794,
+      "longitude": -6.82930221,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Huesca",
+      "population": 219345,
+      "latitude": 42.20305574,
+      "longitude": -0.07288659437,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Jaén",
+      "population": 638099,
+      "latitude": 38.01651228,
+      "longitude": -3.441692152,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "León",
+      "population": 463746,
+      "latitude": 42.61995524,
+      "longitude": -5.839881026,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Lleida",
+      "population": 432866,
+      "latitude": 42.04396867,
+      "longitude": 1.047982061,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Lugo",
+      "population": 331327,
+      "latitude": 43.011764,
+      "longitude": -7.446384047,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Madrid",
+      "population": 6578079,
+      "latitude": 40.49508737,
+      "longitude": -3.717046192,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Málaga",
+      "population": 1641121,
+      "latitude": 36.81385917,
+      "longitude": -4.725861956,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Murcia",
+      "population": 1478509,
+      "latitude": 38.00236817,
+      "longitude": -1.485756293,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Navarra",
+      "population": 647554,
+      "latitude": 42.66720115,
+      "longitude": -1.646114144,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Orense",
+      "population": 309293,
+      "latitude": 42.1964503,
+      "longitude": -7.592597909,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Palencia",
+      "population": 162035,
+      "latitude": 42.37183385,
+      "longitude": -4.535857175,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Las Palmas",
+      "population": 1109175,
+      "latitude": 28.36249292,
+      "longitude": -14.5509925,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Pontevedra",
+      "population": 941772,
+      "latitude": 42.4357647,
+      "longitude": -8.461062946,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "La Rioja",
+      "population": 315675,
+      "latitude": 42.2748707,
+      "longitude": -2.517044119,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Salamanca",
+      "population": 331473,
+      "latitude": 40.80498922,
+      "longitude": -6.065412248,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Santa Cruz de Tenerife",
+      "population": 1018510,
+      "latitude": 28.31255689,
+      "longitude": -17.01785259,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Segovia",
+      "population": 153342,
+      "latitude": 41.17102541,
+      "longitude": -4.054150578,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Sevilla",
+      "population": 1939887,
+      "latitude": 37.43566991,
+      "longitude": -5.68277303,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Soria",
+      "population": 88600,
+      "latitude": 41.62077425,
+      "longitude": -2.588743047,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Tarragona",
+      "population": 795902,
+      "latitude": 41.0876144,
+      "longitude": 0.8181278632,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Teruel",
+      "population": 134572,
+      "latitude": 40.66126196,
+      "longitude": -0.8155322584,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Toledo",
+      "population": 687391,
+      "latitude": 39.79373416,
+      "longitude": -4.148155626,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Valencia",
+      "population": 2547986,
+      "latitude": 39.37025624,
+      "longitude": -0.8007896151,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Valladolid",
+      "population": 519851,
+      "latitude": 41.63412607,
+      "longitude": -4.847191411,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Zamora",
+      "population": 174549,
+      "latitude": 41.7271744,
+      "longitude": -5.980539255,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Zaragoza",
+      "population": 954811,
+      "latitude": 41.6203648,
+      "longitude": -1.064496781,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Ceuta",
+      "population": 85144,
+      "latitude": 35.89340699,
+      "longitude": -5.343424039,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    },
+    {
+      "city": "Melilla",
+      "population": 86384,
+      "latitude": 35.29082799,
+      "longitude": -2.950535523,
+      "%_children_younger_than_14": "",
+      "%_adults": "",
+      "%_seniors_over_65": ""
+    }
+  ]
